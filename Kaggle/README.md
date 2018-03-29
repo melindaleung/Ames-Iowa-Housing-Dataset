@@ -1,18 +1,27 @@
-# Final Project
+# Kaggle Competition - House Prices: Advanced Regression Techniques
 ## Model Fitting on the Ames, Iowa Dataset
 
-1. fit a regression model using default settings with each of the following kinds of models:
+The Kaggle competition can be found [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
-   - ridge regression
-   - lasso regression
-   - knn
-   - decision tree
-   - support vector machines
+### What I did
 
-2. Report your results. Discuss what your results tell you in terms of the underlying structure of the data. Remember that you can think about the ridge and lasso in terms of linearity, the decision tree and knn in terms of non-linearity, and knn and svm in terms of locality.
-3. Use a cross-validated grid search to refine three of the above models.
-4. Prepare a complexity curve for at least one attribute for each of the three models that you are tuning.
-5. (Optional) Use a principal component analysis on your original data* to create principal component features. Augment the original dataset with these principal component features and repeat steps 1 and 2.
-6. (Optional) Submit your results to Kaggle.
+1. Because this is a learning set, I practiced fitting the following models with default settings to the dataset:
+   - Ridge Regression 
+   - Lasso Regression
+   - KNN
+   - Decision Tree
+   - Support Vector Machines
 
-* You can either do this on your scaled numerical data or if you use Gelman scaling, you should be able to perform a PCA on the numerical and one-hot encoded categorical data.
+2. I used a cross-validated grid search to refine my KNN, Decision Tree and SVM model.
+
+3. I prepared a complexity curve for one attribute for each of the three models that I tuned.
+
+4. I performed a principal component analysis on the original training data to create principal component features. Using this new principal component features, I repeated steps 1 and 2.
+
+### Folders
+
+1. **data**: Contains the original train and test set from Kaggle
+2. **ipynb**: Jupyter notebooks - Model Fitting, Cross-Validated Grid Search, Hyperparameter Tuning, PCA
+3. **submission**: Kaggle Submissions
+
+### Kaggle Submission Scores
