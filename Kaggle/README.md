@@ -21,7 +21,7 @@ The Kaggle competition can be found [here](https://www.kaggle.com/c/house-prices
 ### Folders
 
 1. **data**: Contains the original train and test set from Kaggle
-2. **ipynb**: Jupyter notebooks - Model Fitting, Cross-Validated Grid Search, Hyperparameter Tuning, PCA
+2. **ipynb**: Jupyter notebooks - Model Fitting, Hyperparameter Tuning, PCA
 3. **submission**: Kaggle Submissions
 
 ### Kaggle Submission Scores
