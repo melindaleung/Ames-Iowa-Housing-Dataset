@@ -12,11 +12,9 @@ The Kaggle competition can be found [here](https://www.kaggle.com/c/house-prices
    - Decision Tree
    - Support Vector Machines
 
-2. I used a cross-validated grid search to refine my KNN, Decision Tree and SVM model.
+2. I used a cross-validated grid search to refine my models and then prepared a learning curve for each attribute.
 
-3. I prepared a complexity curve for one attribute for each of the three models that I tuned.
-
-4. I performed a principal component analysis on the original training data to create principal component features. Using this new principal component features, I repeated steps 1 and 2.
+3. I performed a principal component analysis on the original training data to create principal component features. Using this new principal component features, I repeated steps 1 and 2.
 
 ### Folders
 
