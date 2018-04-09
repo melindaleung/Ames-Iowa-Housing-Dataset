@@ -14,7 +14,7 @@ The Kaggle competition can be found [here](https://www.kaggle.com/c/house-prices
 
 2. I used a cross-validated grid search to refine my models and then prepared a learning curve for each attribute.
 
-3. I performed a principal component analysis on the original training data to create principal component features. Using this new principal component features, I repeated steps 1 and 2.
+3. I used the top performing model on the test set and submitted my results on Kaggle.
 
 ### Folders
 
@@ -23,3 +23,6 @@ The Kaggle competition can be found [here](https://www.kaggle.com/c/house-prices
 3. **submission**: Kaggle Submissions
 
 ### Kaggle Submission Scores
+
+Model: 
+Prediction Score: 
